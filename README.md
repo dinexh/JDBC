@@ -37,14 +37,3 @@ This is a Java-based Library System that performs CRUD (Create, Read, Update, De
     DELETE FROM Library 
     WHERE id = ?;  -- id
 
-## Project Structure
-LibrarySystem/
-├── src/
-│   ├── LibrarySystem.java       # Main application code with CRUD operations and interactive menu
-│   ├── DatabaseConnection.java   # Manages MySQL database connection
-│
-├── lib/
-│   └── mysql-connector-java.jar  # MySQL JDBC driver
-│
-├── build/
-│   └── (Compiled .class files go here after compilation)
